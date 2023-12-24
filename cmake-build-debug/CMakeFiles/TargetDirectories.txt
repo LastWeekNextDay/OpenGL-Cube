@@ -1,3 +1,0 @@
-C:/Users/LastWeek/CLionProjects/OpenGL_Proj/cmake-build-debug/CMakeFiles/OpenGL_Proj.dir
-C:/Users/LastWeek/CLionProjects/OpenGL_Proj/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/LastWeek/CLionProjects/OpenGL_Proj/cmake-build-debug/CMakeFiles/rebuild_cache.dir
