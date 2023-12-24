@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeFiles\8e9d1daa9f99d15aa6d6cc55a6205bda\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2B13350C-4301-38AD-BAA6-B9F2FCA7544F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

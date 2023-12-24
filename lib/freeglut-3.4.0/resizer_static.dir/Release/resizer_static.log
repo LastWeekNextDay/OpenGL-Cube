@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0/CMakeLists.txt
+  resizer.c
+C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\progs\demos\resizer\resizer.c(159,30): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+  resizer_static.vcxproj -> C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\bin\Release\resizer_static.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

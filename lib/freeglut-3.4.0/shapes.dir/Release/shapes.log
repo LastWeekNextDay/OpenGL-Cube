@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0/CMakeLists.txt
+  shapes.c
+  glmatrix.c
+  Generating Code...
+  shapes.vcxproj -> C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\bin\Release\shapes.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

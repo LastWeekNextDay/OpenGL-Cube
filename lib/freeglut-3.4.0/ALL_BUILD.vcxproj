@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{43925A5B-9139-3A86-A2B6-92106E8C5DFF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\src;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\include;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\src;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\include;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\src;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\include;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\src;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\include;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0 -BC:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0 --check-stamp-file C:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeFiles\3.28.0-rc4\CMakeCCompiler.cmake;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeFiles\3.28.0-rc4\CMakeRCCompiler.cmake;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeFiles\3.28.0-rc4\CMakeSystem.cmake;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\FreeGLUTConfig.cmake.in;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\config.h.in;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\freeglut.pc.in;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\freeglut.rc.in;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0 -BC:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0 --check-stamp-file C:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeFiles\3.28.0-rc4\CMakeCCompiler.cmake;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeFiles\3.28.0-rc4\CMakeRCCompiler.cmake;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeFiles\3.28.0-rc4\CMakeSystem.cmake;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\FreeGLUTConfig.cmake.in;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\config.h.in;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\freeglut.pc.in;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\freeglut.rc.in;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0 -BC:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0 --check-stamp-file C:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeFiles\3.28.0-rc4\CMakeCCompiler.cmake;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeFiles\3.28.0-rc4\CMakeRCCompiler.cmake;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeFiles\3.28.0-rc4\CMakeSystem.cmake;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\FreeGLUTConfig.cmake.in;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\config.h.in;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\freeglut.pc.in;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\freeglut.rc.in;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0 -BC:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0 --check-stamp-file C:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeFiles\3.28.0-rc4\CMakeCCompiler.cmake;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeFiles\3.28.0-rc4\CMakeRCCompiler.cmake;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeFiles\3.28.0-rc4\CMakeSystem.cmake;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\FreeGLUTConfig.cmake.in;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\config.h.in;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\freeglut.pc.in;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\freeglut.rc.in;C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\ZERO_CHECK.vcxproj">
+      <Project>{5EC490B9-5556-3C66-8D77-5962BAF469CB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\3dview.vcxproj">
+      <Project>{A10B8A61-FFAA-332D-8A04-91541CDD3CB4}</Project>
+      <Name>3dview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\3dview_static.vcxproj">
+      <Project>{81180495-79AB-32FC-9C39-8BA4130B143D}</Project>
+      <Name>3dview_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CallbackMaker.vcxproj">
+      <Project>{A7B0CDE6-B82F-35A3-9987-472A98944D11}</Project>
+      <Name>CallbackMaker</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\CallbackMaker_static.vcxproj">
+      <Project>{06C56558-DCFF-3EE5-B72D-ABC4F9EF10AE}</Project>
+      <Name>CallbackMaker_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\Fractals.vcxproj">
+      <Project>{82F91430-DD5A-3441-B670-2A08978B7CF0}</Project>
+      <Name>Fractals</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\Fractals_random.vcxproj">
+      <Project>{4ABF874C-E7C9-3E36-BA5C-9EEA4A20FD04}</Project>
+      <Name>Fractals_random</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\Fractals_random_static.vcxproj">
+      <Project>{F36378A6-4374-3228-B0D2-2AFA7D3CEBAC}</Project>
+      <Name>Fractals_random_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\Fractals_static.vcxproj">
+      <Project>{E120F9F7-0156-34D5-99AA-4710A21EA3CC}</Project>
+      <Name>Fractals_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\Lorenz.vcxproj">
+      <Project>{74F4750F-D357-3188-B110-55F8E685B7C0}</Project>
+      <Name>Lorenz</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\Lorenz_static.vcxproj">
+      <Project>{21042EE6-2C02-36B2-B639-61936D0769D0}</Project>
+      <Name>Lorenz_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\One.vcxproj">
+      <Project>{B4F3BA8A-CCCE-3E5F-9CB7-4949D83C4A65}</Project>
+      <Name>One</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\One_static.vcxproj">
+      <Project>{61897E93-2448-3904-92AE-2742D5B26E70}</Project>
+      <Name>One_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\freeglut.vcxproj">
+      <Project>{06BDC649-8395-39EC-857C-76C59A70FC6D}</Project>
+      <Name>freeglut</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\freeglut_static.vcxproj">
+      <Project>{B3B3A872-F099-3E17-B5EE-145C84C3FB02}</Project>
+      <Name>freeglut_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\indexed_color.vcxproj">
+      <Project>{CB9F4A06-EB17-3FDA-9BAA-EEC61958629D}</Project>
+      <Name>indexed_color</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\indexed_color_static.vcxproj">
+      <Project>{9E0842CB-22B6-3C0A-B27A-5290953465D6}</Project>
+      <Name>indexed_color_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\joystick.vcxproj">
+      <Project>{8A142EF7-92FA-353F-8D3C-13647FBCDE0A}</Project>
+      <Name>joystick</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\joystick_static.vcxproj">
+      <Project>{4C2B653A-6D6C-33EF-9EBB-77E75CF736F4}</Project>
+      <Name>joystick_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\keyboard.vcxproj">
+      <Project>{E00FD994-D384-3571-80AD-93314E375FE8}</Project>
+      <Name>keyboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\keyboard_static.vcxproj">
+      <Project>{461C6E87-2C29-39FD-8BA4-97CBACF42BA4}</Project>
+      <Name>keyboard_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\multi-touch.vcxproj">
+      <Project>{700DA162-45E6-3447-9DB6-C2D44E4507D1}</Project>
+      <Name>multi-touch</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\multi-touch_static.vcxproj">
+      <Project>{42481A2F-57F5-333B-AC3D-5016CC35878E}</Project>
+      <Name>multi-touch_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\resizer.vcxproj">
+      <Project>{0F94D4AA-430F-37B4-8FA2-6A6DD638E66E}</Project>
+      <Name>resizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\resizer_static.vcxproj">
+      <Project>{45885F91-288E-360D-BB01-BE31C75431EB}</Project>
+      <Name>resizer_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\shapes.vcxproj">
+      <Project>{CC62554C-A42C-3DC2-8455-142849E4FE83}</Project>
+      <Name>shapes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\shapes_static.vcxproj">
+      <Project>{0450C153-6C4A-3DB5-B892-FFE7453FC561}</Project>
+      <Name>shapes_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\smooth_opengl3.vcxproj">
+      <Project>{B5EF1D33-03F8-3491-AE9D-1BF32236AC89}</Project>
+      <Name>smooth_opengl3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\smooth_opengl3_static.vcxproj">
+      <Project>{844587BA-D830-3CA4-8D14-FD743CFEE6CF}</Project>
+      <Name>smooth_opengl3_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\spaceball.vcxproj">
+      <Project>{2D5C18D0-9386-38BE-8FDC-DF4A430B4D4B}</Project>
+      <Name>spaceball</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\spaceball_static.vcxproj">
+      <Project>{AF98C09A-4CF9-3F8D-9728-88B2B8E293E3}</Project>
+      <Name>spaceball_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\subwin.vcxproj">
+      <Project>{75BC7D41-6428-383D-9B64-1E3DA4E9B9FE}</Project>
+      <Name>subwin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\subwin_static.vcxproj">
+      <Project>{93F94408-8A99-3C8C-A222-01C6E75EA00F}</Project>
+      <Name>subwin_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\timer.vcxproj">
+      <Project>{960D00C2-AA45-3BB7-961F-79E1FF4D0F5B}</Project>
+      <Name>timer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\timer_callback.vcxproj">
+      <Project>{2749AD8B-4376-3D53-9FB1-9610EF54B6D0}</Project>
+      <Name>timer_callback</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\timer_callback_static.vcxproj">
+      <Project>{8F90E971-20D9-305A-9150-69A7EE023CC7}</Project>
+      <Name>timer_callback_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\LastWeek\CLionProjects\OpenGL_Proj\lib\freeglut-3.4.0\timer_static.vcxproj">
+      <Project>{143ACBB4-D77C-307A-9934-2564604550D7}</Project>
+      <Name>timer_static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

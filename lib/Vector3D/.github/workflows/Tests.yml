@@ -1,0 +1,26 @@
+name: Tests
+
+on:
+  push:
+    paths-ignore:
+    - 'Tests/**'
+    - 'README.md'
+
+jobs:
+  Test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        
+        include:
+         - os: ubuntu-latest
+           compiler: gcc
+           version: 11.2
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: install google tests 
+      run: sudo apt-get install -y libgtest-dev
+    - name: run tests
+      run: make

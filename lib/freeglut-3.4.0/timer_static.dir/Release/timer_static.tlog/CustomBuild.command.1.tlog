@@ -1,0 +1,10 @@
+^C:\USERS\LASTWEEK\CLIONPROJECTS\OPENGL_PROJ\LIB\FREEGLUT-3.4.0\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0 -BC:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0 --check-stamp-file C:/Users/LastWeek/CLionProjects/OpenGL_Proj/lib/freeglut-3.4.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
